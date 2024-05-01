@@ -1,28 +1,7 @@
-Cloning into 'niran'
-remote: Enumerating objects: 9, done.
-remote: Counting objects: 100% (9/9), done.
-remote: Compressing objects: 100% (4/4), done.
-remote: Total 9 (delta 0), reused 6 (delta 0), pack-reused 0 .
-Receiving objects: 100% (9/9), done
-PS C:\Users\URK23CS1197> cd niran
-PS C:\Users\URK23CS1197\niran> git add README.md
-PS C:\Users\URK23CS1197\niran> git commit -m "Update Updated README.md file once again"
-[main f9ffe2f]_Update Updated README.md file once again
-1 file changed, 1 insertion(+), 1 deletion(-)
-PS C:\Users\URK23CS1197\niran> git push origin main
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done. Delta compression using up to 8 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 360 bytes | 360.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused
-To https://github.com/URK23CS1197/niran
-274b7c7. . f9ffe2f main -> main
-PS C: \Users\URK23CS1197\niran> git submodule add "https://github.com/URK23CS1197/niran|"
-Cloning into 'C:/Users/URK23CS1197/niran/niran' ..
-remote: Enumerating objects: 12, done.
-remote: Counting objects: 100% (12/12), done.
-remote: Compressing objects: 100% (7/7), done.
-remote: Total 12 (delta 0), reused 9 (delta 0), pack-reused 0
-Receiving objects: 100% (12/12), done.
-warning: in the working copy of '.gitmodules', LF will be replaced by CRLF the next time Git touches it
-PS C:\Users\URK23CS1197\niran> git submodule update
+git clone https://github.com/URK23CS1197/git.git
+ cd niran
+ git add README.md
+ git commit -m "Update Updated README.md file once again"
+ git push origin main
+ git submodule add "https://github.com/URK23CS1197/niran|"
+ git submodule update
